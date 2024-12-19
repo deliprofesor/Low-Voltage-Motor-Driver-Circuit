@@ -1,12 +1,13 @@
 # Low-Voltage-Motor-Driver-Circuit
 
-![sematik](https://github.com/user-attachments/assets/f4eb6c9d-66e8-44f2-bdba-d9fcf4193ebf)
+
+![pcb](https://github.com/user-attachments/assets/06a95103-536a-49f7-94c8-fba12d1dbc62)
+
 
 # **DC Motor Sürücü ve Güç Regülatör Devresi**
 
 Bu proje, DC motorların kontrolü ve sistem kararlılığı sağlamak için bir motor sürücü devresi, akım algılama birimi ve 3.3V sabit voltaj sağlayan bir regülatör içerir. Devre, robotik uygulamalar, otomasyon sistemleri ve eğitim projeleri gibi birçok farklı alanda kullanılabilir. Tasarım, **Altium Designer** kullanılarak detaylı bir şekilde oluşturulmuştur.
 
----
 
 ## 📜 **Proje Özeti**
 - **Amaç:** Düşük güçlü DC motorların hassas kontrolünü sağlamak ve güç stabilizasyonu sunmak.
@@ -16,7 +17,6 @@ Bu proje, DC motorların kontrolü ve sistem kararlılığı sağlamak için bir
   - Güç regülasyonu
 - **Teknoloji:** Altium Designer ile şematik tasarım ve PCB üretimi.
 
----
 
 ## 🛠️ **Devre Özellikleri**
 1. **Motor Sürücü:**
@@ -38,12 +38,12 @@ Bu proje, DC motorların kontrolü ve sistem kararlılığı sağlamak için bir
    - Yüksek güç hatları için geniş bakır dolgular.
    - Kompakt ve montaj dostu tasarım.
 
----
 
 ## 🖥️ **Devre Şeması ve Bileşenler**
 
 ### **Devre Şeması**
-![Devre Şeması](./sematik.jpg)
+
+![sematik](https://github.com/user-attachments/assets/f4eb6c9d-66e8-44f2-bdba-d9fcf4193ebf)
 
 ### **Kritik Bileşenler**
 | **Bileşen**       | **Model/Değer**               | **Açıklama**                                 |
@@ -54,7 +54,6 @@ Bu proje, DC motorların kontrolü ve sistem kararlılığı sağlamak için bir
 | **Dirençler**      | 10 kΩ, 0.1 Ω                 | Sinyal şekillendirme ve akım algılama       |
 | **Kapasitörler**   | 100 nF, 10 µF, 470 µF        | Gerilim stabilizasyonu ve parazit filtreleme|
 
----
 
 ## ⚙️ **Sistem Çalışma Prensibi**
 1. **Motor Kontrolü:**
@@ -69,7 +68,6 @@ Bu proje, DC motorların kontrolü ve sistem kararlılığı sağlamak için bir
    - L78L33ABUTR regülatör, giriş geriliminden 3.3V sabit çıkış üretir.
    - Yük dalgalanmaları, kapasitörlerle dengelenir.
 
----
 
 ## 📂 **Proje Dosyaları**
 - **`Schematic/`**: Şematik tasarım dosyaları (.SchDoc).
@@ -78,7 +76,6 @@ Bu proje, DC motorların kontrolü ve sistem kararlılığı sağlamak için bir
 - **`Gerber/`**: PCB üretimi için Gerber dosyaları.
 - **`README.md`**: Projeye dair açıklama dosyası.
 
----
 
 ## 🔨 **Montaj ve Test**
 ### **Montaj Aşamaları**
@@ -97,20 +94,18 @@ Bu proje, DC motorların kontrolü ve sistem kararlılığı sağlamak için bir
 3. Akım algılama devresinin çalışmasını ölçü aleti ile doğrulayın.
 4. 3.3V çıkış gerilimini kontrol edin.
 
----
 
 ## 💻 **Simülasyon ve Yazılım**
 - **Simülasyon:** Altium Designer üzerinden devre simülasyonu yapılabilir.
 - **Firmware:** Motor kontrolü için mikrodenetleyici programlaması gereklidir (örn. STM32 veya Arduino).
 
----
+
 
 ## 📊 **Kullanım Alanları**
 - **Robotik Sistemler:** Hareketli robotların hassas motor kontrolü.
 - **Otomasyon Uygulamaları:** Endüstriyel sistemlerde motorlu mekanizmalar.
 - **Eğitim Projeleri:** Elektronik ve kontrol sistemlerini öğretmek için.
 
----
 
 ## 🌟 **Katkı Sağlama**
 Projeye katkıda bulunmak isteyenler aşağıdaki adımları izleyebilir:
@@ -118,7 +113,6 @@ Projeye katkıda bulunmak isteyenler aşağıdaki adımları izleyebilir:
 2. Değişikliklerinizi yapın.
 3. Pull request göndererek önerilerinizi paylaşın.
 
----
 
 ## 📧 **İletişim**
 Herhangi bir sorunuz ya da öneriniz için benimle iletişime geçebilirsiniz:
