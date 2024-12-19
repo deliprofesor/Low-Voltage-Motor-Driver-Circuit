@@ -1,0 +1,2 @@
+Change Component Library : Designator=R6 Old Library=Motor_K.IntLib New Library=Motor_k.SchLib
+Added Member To Class: ClassName=Motor_K Member=Component R5 RES 10K OHM 1% 1/8W 0805

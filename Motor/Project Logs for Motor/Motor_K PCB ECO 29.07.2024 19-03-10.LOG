@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=GND Pin=R6-1
+Removed Pin From Net: NetName=NetR5_1 Pin=R6-2
+Removed Member From Class: ClassName=Motor_K Member=R6
+Added Component: Designator=*(RES 0.1 OHM 1% 1/4W 0805)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/6536/eng-ds-1773241-g-6536220.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/6536/eng-ds-1773241-g-6536220.pdf?src-supplier=Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Designed by"; Value = "ILKNUR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1622598-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0,33, 10=0,238, 25=0,1912, 50=0,142, 100=0,1001, 250=0,0892, 500=0,07644, 1000=0,06409 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "268609"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "A105964CT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=*-1
+Added Pin To Net: NetName=NetR5_1 Pin=*-2
+Change Net Name : Old Net Name=NetR5_1 New Net Name=Net*_2
+Added Member To Class: ClassName=Motor_K Member=Component * LR1LJR10
