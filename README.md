@@ -1,6 +1,6 @@
 # Low-Voltage-Motor-Driver-Circuit
 
-![pcb_on](https://github.com/user-attachments/assets/3185e925-4f6b-4a28-b1ef-4887451499d7)  ![pcb_gri](https://github.com/user-attachments/assets/9778d62f-5e50-4e6a-80fe-d77db8c664cd) ![PCBdoc](https://github.com/user-attachments/assets/4f8eb9ff-2043-4bae-89ed-d3658a745d8d)
+![pcb_on](https://github.com/user-attachments/assets/3185e925-4f6b-4a28-b1ef-4887451499d7) ![PCBdoc](https://github.com/user-attachments/assets/4f8eb9ff-2043-4bae-89ed-d3658a745d8d)
 
 # **DC Motor Sürücü ve Güç Regülatör Devresi**
 
