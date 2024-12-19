@@ -68,43 +68,11 @@ Bu proje, DC motorların kontrolü ve sistem kararlılığı sağlamak için bir
    - L78L33ABUTR regülatör, giriş geriliminden 3.3V sabit çıkış üretir.
    - Yük dalgalanmaları, kapasitörlerle dengelenir.
 
-
-## 📂 **Proje Dosyaları**
-- **`Schematic/`**: Şematik tasarım dosyaları (.SchDoc).
-- **`PCB/`**: PCB tasarım dosyaları (.PcbDoc).
-- **`BOM/`**: Malzeme listesi (Bill of Materials).
-- **`Gerber/`**: PCB üretimi için Gerber dosyaları.
-- **`README.md`**: Projeye dair açıklama dosyası.
-
-
-## 🔨 **Montaj ve Test**
-### **Montaj Aşamaları**
-1. **PCB Üretimi:**
-   - `Gerber` dosyalarını bir PCB üreticisine göndererek kartın baskısını alın.
-2. **Malzeme Temini:**
-   - `BOM` dosyasına göre gerekli bileşenleri temin edin.
-3. **Lehimleme:**
-   - SMD ve THT bileşenleri kart üzerine yerleştirip dikkatlice lehimleyin.
-4. **Kablolama:**
-   - Motor bağlantıları ve güç giriş hatlarını bağlayın.
-
 ### **Test Süreci**
 1. Giriş voltajını (5V-12V) bağlayın.
 2. PWM sinyali ile motorun hızını ve yönünü test edin.
 3. Akım algılama devresinin çalışmasını ölçü aleti ile doğrulayın.
 4. 3.3V çıkış gerilimini kontrol edin.
-
-
-## 💻 **Simülasyon ve Yazılım**
-- **Simülasyon:** Altium Designer üzerinden devre simülasyonu yapılabilir.
-- **Firmware:** Motor kontrolü için mikrodenetleyici programlaması gereklidir (örn. STM32 veya Arduino).
-
-
-
-## 📊 **Kullanım Alanları**
-- **Robotik Sistemler:** Hareketli robotların hassas motor kontrolü.
-- **Otomasyon Uygulamaları:** Endüstriyel sistemlerde motorlu mekanizmalar.
-- **Eğitim Projeleri:** Elektronik ve kontrol sistemlerini öğretmek için.
 
 
 ## 🌟 **Katkı Sağlama**
